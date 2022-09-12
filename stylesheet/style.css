@@ -1,0 +1,752 @@
+/*comienzo de mi hoja de estilo */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    margin: 0;
+    background-color: black;
+}
+
+h1{font-size: 2.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2.7em;}
+h4{font-size: 4em;}
+h5{font-size: 3em;}
+p{font-size: 1.,25em;}
+
+a{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 70px;
+    background-color: coral;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo-nombre{
+    font-size: 1.5em;
+
+}
+
+.logo-img{
+    height: 70px;
+    margin-right: 15px 0px;
+}
+
+nav{
+    padding-bottom: 15px;
+}
+
+nav a:hover{
+    color: white;
+}
+/* termino de header */
+
+/* inicio .html */
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{color: blueviolet;}
+#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("../imagenes/tipos\ de\ cerveza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center  ;
+}
+/*botones de inicio */
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,5);
+    color: white;
+    background-color:blueviolet;
+}
+
+button:hover{
+    background-color:rgb(92, 46, 134)
+}
+/*termino de botones de inicio*/
+
+#titulo h1{
+    color: white;
+}
+
+#definicion .container{
+    text-align: center;
+    padding: 20px 12px;
+}
+
+#atreverse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("../imagenes/fondo\ de\ inicio1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center  ;
+
+}
+
+#atreverse h3{
+    color: white;
+}
+
+#atreverse .container{
+    text-align: center;
+    padding: 20px 12px;
+}
+
+#nuestras-cervezas{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#nuestras-cervezas .container{
+    padding: 100px 0px;
+}
+
+#nuestras-cervezas h4{
+    margin-top: 0;
+    font-size: 3em;
+}
+
+#nuestras-cervezas p{
+    display: none;
+
+}
+
+#nuestras-cervezas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 12px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("../imagenes/fondo\ de\ inicio1.jpg");
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("../imagenes/fondo\ de\ inicio1.jpg");
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("../imagenes/fondo\ de\ inicio1.jpg");
+}
+
+#final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 80vh;
+}
+
+#final h6{
+    font-size: 5vw;
+}
+
+#final button{
+    font-size: 3vw;
+}
+/*termino de inicio.html*/
+
+/*inicio de quienes somos.html*/
+#titulo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+
+    ,url("../imagenes/tipos\ de\ cerveza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center  ;
+}
+
+#titulo2 h1{
+    color: white;
+}
+
+#content h2{
+    color: sienna;
+    text-align: center;
+}
+
+#content .informacion{
+    text-align: center;
+    padding: 20px 12px;
+}
+
+.informacion-texto{
+    font-size: 20px;
+}
+
+.informacion-img{
+    border-radius: 10%;
+    margin: 20px;
+}
+
+#cautiva h3{
+    color: sienna;
+    text-align: center;
+}
+
+#cautiva .ingor{
+    text-align: center;
+    padding: 20px 12px;
+}
+
+.ingor-texto{
+    font-size: 20px;
+}
+
+.ingor-img{
+    border-radius: 10%;
+    margin: 20px;
+}
+/*termino de quienes somo .html*/
+
+/* pedidos.html */
+.itemsos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("../imagenes/tipos\ de\ cerveza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center  ;
+}
+
+.resujir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("../imagenes/tipos\ de\ cerveza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center  ;
+}
+
+.contenidoed{
+    max-width: 1400px;
+    margin: auto;
+}
+
+#nuestrasofertas{
+    color: white;
+    text-align: center;
+}
+
+#nuestrasofertas .contenidoed{
+    padding: 100px 0px;
+}
+
+#nuestrasofertas h4{
+    margin-top: 0;
+    font-size: 3em;
+}
+
+#nuestrasofertas p{
+    color: antiquewhite;
+}
+
+#nuestrasofertas .serpas{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 12px;
+    border-radius: 15px;
+    
+}
+
+.serpas:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("../imagenes/fondo\ de\ inicio1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+}
+
+.serpas:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+) 
+    ,url("../imagenes/fondo\ de\ inicio1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+}
+
+.serpas:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("../imagenes/fondo\ de\ inicio1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+}
+
+.serpas:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("../imagenes/fondo\ de\ inicio1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+}
+
+.serpas:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("../imagenes/fondo\ de\ inicio1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+}
+
+.serpas:nth-child(6){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("../imagenes/fondo\ de\ inicio1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+}
+/*final de pedidos html */
+
+/* formulasecreta.html inicio */
+#formula-secreta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("../imagenes/extraterrestre\ bebiendo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+}
+
+#ingredientes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("../imagenes/galones\ de\ cerveza\ artesanal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+}
+
+#ingredientes h1{
+    color: rgb(235, 198, 129);
+    font-size: 3em;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#ingredientes .puri{
+    font-size: larger;
+    color: red;
+}
+
+#ingredientes li{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+#ingredientes p{
+    display: none;
+}
+
+/* fin de formulasecreta.html */
+
+footer{
+    background-color:none;
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 720px){
+
+    header{
+        flex-direction: row;
+        padding: 0px 30px;
+        justify-content: space-between;
+    }
+
+    /*inicio.html*/
+    #titulo h1{
+        font-size: 3em;
+    }
+
+    #definicion .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #definicion .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #definicion h2{
+        margin-top: 0px;
+    }
+
+    #definicion .imgbeber-container{
+        background-image: url("../imagenes/tipos\ de\ cerveza.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+    #nuestras-cervezas .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestras-cervezas p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #nuestras-cervezas h5{
+        margin-top: 0;
+    }
+
+    #nuestras-cervezas .carta{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgb(50,50,50);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 5);
+    }
+
+    .carta:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ) 
+        ,url("../imagenes/fondo\ de\ inicio1.jpg");
+    }
+    
+    .carta:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ) 
+        ,url("../imagenes/fondo\ de\ inicio1.jpg");
+    }
+    
+    .carta:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ) 
+        ,url("../imagenes/fondo\ de\ inicio1.jpg");
+    }
+
+    #final h6{
+        font-size: 3em;
+    }
+
+    #final button{
+        font-size: 2em;
+    }
+    /* final de inicio.html*/
+
+    /*inico de quienes somos*/
+    .informacion{
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+
+    .informacion-texto{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 24px;
+        color: rgb(77, 51, 51);
+    }
+
+    .ingor{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .ingor-texto{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 24px;
+        color: rgb(77, 51, 51);
+    }
+
+    /*final de quienes somos*/
+
+    /*pedidos html */
+    .itemsos{
+        font-size: 20px;
+    }
+    
+    .resujir{
+        font-size: 40px;
+        color: pink;
+    }
+
+    #nuestrasofertas .menues{
+        display:grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows:  auto auto auto ;
+    }
+
+    #nuestrasofertas p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #nuestrasofertas h4{
+        margin-top: 0;
+    }
+
+    #nuestrasofertas .serpas{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgb(50,50,50);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 5);
+    }
+
+    .serpas:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ) 
+        ,url("../imagenes/fondo\ de\ inicio1.jpg");
+    }
+    
+    .serpas:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ) 
+        ,url("../imagenes/fondo\ de\ inicio1.jpg");
+    }
+    
+    .serpas:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ) 
+        ,url("../imagenes/fondo\ de\ inicio1.jpg");
+    }
+
+    .serpas:nth-child(4){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+    )    
+        ,url("../imagenes/fondo\ de\ inicio1.jpg");
+    }
+
+    .serpas:nth-child(5){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+    ) 
+        ,url("../imagenes/fondo\ de\ inicio1.jpg");
+    }
+
+    .serpas:nth-child(6){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5)
+            rgba(0,0,0,0.5),
+    )    
+        ,url("../imagenes/fondo\ de\ inicio1.jpg");
+    }
+
+/*final de pedidos html */
+
+/* inicio de formulasecreta.html */
+    #formula-secreta{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 90vh;
+        color: white;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ) 
+        ,url("../imagenes/especificos.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center center;
+    }
+    #ingredientes h1{
+        padding: 10px 12px 10px;
+        color: sienna;
+    }
+
+    #ingredientes .puri{
+        display: flex;
+        color: tan;
+    }
+
+    #ingredientes p{
+        display: contents;
+        color: aqua;
+    }
+
+    footer .container{
+        justify-content: flex-end;
+    }
+}
